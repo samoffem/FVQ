@@ -1,0 +1,42 @@
+
+.app-wrapper{
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.app-inner-wrap{
+    width: 410px;
+   
+}
+
+.main-header{
+    font-weight: 400;
+    font-size: 34px;
+    color: #083530;
+    text-align: center;
+}
+
+.terms-notice{
+    margin-top: 40px;
+    font-size: small;
+    color: #083530;
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 16px;
+}
+.terms-notice a{
+    color: #169486;
+}
+
+@media screen and (max-width: 450px ) {
+    .app-wrapper{
+        padding: 12px;
+    }
+
+    .app-inner-wrap{
+        width: 100%;
+    }
+}
